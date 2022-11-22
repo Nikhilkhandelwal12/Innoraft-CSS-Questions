@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.nav{
+    display: inline-block;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.navimg{
+    height: 70px;
+    width: 166px;
+    margin-left: 150px;
+}
+.innav{
+    float: right;
+    margin-top: 27px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    margin-right: 50px;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-weight: bold;
+}
+.last{
+    margin-top: 12px;
+    float: right;
+    margin-right: 150px;
+}
+
+.firstdiv{ 
+    margin-top: -4px;
+    height: 670px;
+    width: 100%;
+    background: rgb(4, 4, 50);
+}
+.secimg{
+  opacity: 0.2;
+  position: absolute;
+ 
+}
+
+.h1{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+.firstdiv p{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+
+.btn{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: inline-block;
+    margin-top: 70px;
+}
+
+.btn1{
+    float: left;
+    background-color: rgb(128 159 27);
+    width: 140px;
+    height: 40px;
+    color: white;
+    border-radius: 40px;
+    border-color: white;
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+
+.btn2{
+    color: white;
+    float: right;
+    width: 180px;
+    height: 40px;
+    margin-left: 20px ;
+    border-radius: 40px;
+    background: transparent;
+    border-color: white;
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+
+
+
+.seconddiv{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.one{
+    width: 40%;
+    /* background-color: brown; */
+}
+
+.onediv{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 40px;
+    color: grey;
+}
+
+.sp{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.log{
+    margin-top: 40px;
+    display: flex;
+    color: grey;
+}
+
+.two{
+    width: 60%;
+    /* background-color: chartreuse; */
+    text-align: center;
+}
+.imgtwo{
+    margin-top: 50px;
+}
+
+.thirddiv{
+    height: 600px;
+    width: 100%;
+    background: rgb(4, 4, 50);
+}
+
+.h2{
+    position: relative;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+
+.tdiv{
+    display: flex;
+    position: relative;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+.fg{
+    color: white;
+    /* height: 100px;
+    width: 100px; */
+    margin-right: 30px;
+   
+}
+
+.dig{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.fg h3{
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+
+.fgbt{
+    margin-top: 70px;
+    background-color: rgb(45, 45, 136);
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    border: 0;
+}
+.btl{
+    background-color: rgb(128 159 27);
+    width: 180px;
+    height: 40px;
+    color: white;
+    border-radius: 40px;
+    border-color: white;
+    font-family: 'BhuTuka Expanded One', cursive;
+    margin-top: 20px;
+}
+.p1{
+    margin-top: 60px;
+    margin-left: 200px;
+    font-size: 50px;
+    color: rgb(92, 89, 89);
+}
+.p2{
+    margin-left: 200px;
+    font-size: 50px;
+    color: rgb(92, 89, 89);
+}
+
+.p3{
+    margin-top: 20px;
+    margin-left: 190px;
+    /* font-size: 35px; */
+    color: rgb(92, 89, 89);
+    margin-bottom: 15px;
+}
+
+.nav2{
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 60px;
+    height: 70px;
+    width: 100%;
+}
+
+.forthdiv{
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+    width: 100%;
+    /* background-color: cadetblue; */
+    margin-left: 200px;
+}
+.fir{
+    display: flex;
+    flex-direction: column;
+}
+.second{
+    margin-top: 20px;
+}
+.fifthdiv{
+    background-color: rgb(4, 4, 50);
+    height: 400px;
+    width: 100%;
+}
+
+.cdiv{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.fg1{
+    margin-left: 150px;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+}
+
+.after{
+    font-size: 50px;
+    color: rgb(89, 77, 77)
+}
+
+.sixdiv{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(245, 244, 247);
+}
+.ek{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin-left: 250px;
+    /* border: 1px solid grey; */
+    box-shadow: 0px 0px 20px -5px grey;
+}
+.do{
+    width: 300px;
+    height:400px;
+    background-color: white;
+    margin-left: 50px;
+    /* border: 1px solid grey; */
+    box-shadow: 0px 0px 20px -5px grey;
+}
+.teen{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    /* border: 1px solid grey; */
+    margin-left: 50px;
+    box-shadow: 0px 0px 20px -5px grey;
+}
+.bt{
+    margin-left: 75px;
+    margin-top: 90px;
+}
+.rl{
+    display: inline-block;
+}
+.l{
+    float: left;
+    margin-top: 90px;
+    margin-left: 100px;
+    font-size: 50px;
+}
+.r{
+    margin-top: 100px;
+    margin-right: 200px;
+    display: flex;
+    float: right;
+}
+.cont3{
+    display: flex;
+    /* background-color: aqua; */
+}
+.conta{
+    flex-direction: column;
+    /* background-color: blueviolet; */
+    height: 370px;
+    width: 550px;
+    margin-left: 160px;
+}
+.contb{
+    flex-direction: column;
+    /* background-color: brown; */
+    height: 370px;
+    width: 550px;
+    margin-left: 80px;
+}
+
+.fgbt12{
+    margin-top: 70px;
+    /* background-color: rgb(45, 45, 136); */
+    background-image: url(t-1.jpeg);
+    height: 100px;
+    width: 100px;
+    background-size: 100px 100px;
+    border-radius: 60px;
+    border: 0;
+}
+.lstdiv{
+    background-color:rgb(57,57,100) ;
+    height: 500px;
+    width: 100%;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+}
+
+.bot{
+    margin-top: 80px;
+    margin-left: 150px;
+    font-size: 20px;
+    color: white;
+    /* padding-top: 10px; */
+}
