@@ -1,0 +1,344 @@
+html
+{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* css for header starts here  */
+header{
+    display: inline-block;
+    height: 70px;
+    width: 100%;
+    margin-top: 10px;
+}
+.dragologo{
+    margin-left: 200px;
+    height: 70px;
+    width: 170px;
+}
+.searchbox{
+    padding-left: 10px;
+    border-radius: 20px 0px 0px 20px;
+    height: 32px;
+    width: 120px;
+    border: none;
+    margin-left: 60px;
+    border: 0.5px solid grey;
+    border-right: none;
+}
+.navbt{
+    margin-top: 10px;
+    height: 34px;
+    width: 30px;
+    margin-left: -5px;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    border: 0.5px solid grey;
+    background: none;
+    border-left: none;
+}
+.navanchor{
+    margin-left: 25px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(67, 61, 61);
+    opacity: 0.9;
+    padding-bottom: 4px;
+}
+.navanchor:hover{
+    color: rgb(245, 11, 245);
+    border-bottom: 2px solid rgb(176, 26, 176);
+}
+/* css for header ends here  */
+
+/* css for about us section starts here  */
+.firstdiv{
+    height: 600px;
+    width: 100%;
+    display: inline-block;
+}
+.left{
+    width: 25%;
+    height: 400px;
+    float: left;
+    margin-top: 185px;
+    margin-left: 240px;
+}
+.right{
+   
+    width: 37%;
+    height: 400px;
+    float: right;
+    margin-top: 65px;
+    margin-right: 310px;
+}
+.smallhead{
+    color: rgb(176, 26, 176);
+    opacity: 0.8;
+}
+/* css for about us section ends here  */
+
+/* css for second div starts here  */
+
+.seconddiv{
+    height: 250px;
+    width: 100%;
+    
+}
+.first{
+   
+    height: 250px;
+    width: 19%;
+    float: left;
+    margin-left: 240px;
+}
+.contentname{
+    color: rgb(245, 11, 245);
+   
+    font-size: 19px;
+    word-spacing: 1px;
+    line-height: 25px;
+    margin-top: -10px;
+}
+.second{
+  
+    height: 250px;
+    width: 19%;
+    margin-left: 55px;
+    float: right;
+
+    margin-right: 283px;
+}
+.third{
+
+    float: right;
+    
+    height: 250px;
+    width: 19%;
+    margin-left: 55px;
+}
+.incontent{
+    margin-top: -7px; 
+    line-height:25px;
+    color: rgb(97, 95, 95); 
+    font-size: 15px;
+    opacity: 0.9;
+}
+/* css for second div ends here  */
+
+/* css for third div starts here  */
+
+.thirddiv{
+
+    height: 600px;
+    width: 100%;
+}
+.one{
+    float: left;
+   
+    height: 600px;
+    width: 30%;
+    margin-left: 135px;
+}
+.two{
+    float: right;
+   
+    height: 600px;
+    width: 30%;
+    margin-right: 280px;
+}
+.smallhead1{
+    font-size: 12px; 
+    margin-top: 75px;
+}
+.mainhead{
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 1px;
+}
+/* css for third div ends here  */
+
+/* css for forth div starts here  */
+.forthdiv{
+    background-color: aliceblue;
+    height: 620px;
+    width: 100%;
+}
+.infour{
+    height: 600px;
+    width: 65%;
+    margin-left: 240px;
+}
+.infourone{
+   float: left;
+    height: 380px;
+    width: 28%;
+    margin-top: 115px;
+
+}
+.infourtwo{
+  
+    height: 380px;
+    width: 28%;
+    float: right;
+    margin-left: 20px;
+    margin-top: 138px;
+}
+.infourthree{
+  
+    height: 300px;
+    width: 34%;
+ float: right;
+    margin-left: 60px;
+    margin-top: 180px;
+}
+ .box1{
+   
+    background-color: white;
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 5px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px -3px grey;
+}
+.box2{
+   
+    background-color: white;
+    height: 180px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 5px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px -3px grey;
+}
+.inboximg{
+    margin-left: 25px;
+    height: 45px;
+    width: 45px;
+    margin-top: 20px;
+}
+.box1:hover{
+    background-color: rgba(143,65,213,255);
+}
+.box1:hover p{
+    color: white;
+}
+.box2:hover{
+    background-color: rgba(143,65,213,255);
+    color: white ; 
+}
+.box2:hover p{
+    color: white;
+}
+.readmorebtn{
+    width: 140px;
+    height: 45px;
+    background-color: transparent;
+    color: rgba(143,65,213,255);
+    border: 1px solid rgba(143,65,213,255);
+    border-radius: 25px;
+}
+.readmorebtn:hover{
+    color: white;
+    background-color:rgba(143,65,213,255) ;
+}
+/* css for forth div ends here  */
+
+/* css for fifth div starts here  */
+.fifthdiv{
+    height: 1150px;
+    width: 100%;
+    text-align: center;
+}
+.photoframe{
+   
+    width: 63%;
+    height: 800px;
+    margin-left: 240px;
+}
+.firstframe{
+  
+    height: 300px;
+    width: 100%;
+    display: inline-block;
+}
+.manphoto{
+    height: 300px;
+    width: 270px;
+    border-radius: 25px;
+    opacity: 0.5;
+}
+.intradiv{
+    position: absolute;
+    height: 60px;
+    width: 270px;
+    background-color: white;
+    margin-top: -28px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 6px -3px grey;
+
+}
+.firstphoto:hover .cd img {
+    opacity: 1;
+}
+.firstphoto:hover .c{
+    color: rgb(245, 11, 245);
+}
+/* css for fifth div ends here  */
+
+.lastdiv{
+   
+    height: 200px;
+    width: 100%;
+    
+}
+.eight{
+    height: 79px;
+    width: 85px;
+    border-radius: 79px;
+    border: 10px solid rgb(245, 11, 245);
+    background-color: rgba(143,65,213,255);
+    margin-top: 5px;
+    margin-left: 150px;
+    float: left;
+}
+.content{
+    height: 80px;
+    width: 85px;
+   
+    margin-left: 60px;
+    margin-top: 10px;
+    float: right;
+}
+.footcontent{
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.straight{
+    background-color: rgba(143,65,213,255);
+    color: white;
+    height: 80px;
+    width: 65%;
+    border-radius: 15px;
+    margin-left: 245px;
+}
+.bt{
+    width: 140px;height:40px;background:transparent;color: white;border: 1px solid white;border-radius: 20px;
+}
+.bt:hover{
+    background-color: white;
+    color: rgba(143,65,213,255);
+}
+.last{
+    height: 200px;
+    width: 65%;
+    margin-left: 245px;
+}
